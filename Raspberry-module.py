@@ -6,8 +6,6 @@ while(1):
     from espeak import espeak
     import os
     import serial
-    service_id= 2147483647
-    service_name="grocery"
     #GPIO to LCD mapping
     LCD_RS = 26
     LCD_E  = 24
